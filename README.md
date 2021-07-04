@@ -1,2 +1,3 @@
-# azure-serverless-test
-Simple project to test Azure Functions. 
+# Azure serverless test
+
+Simple project to test Azure Functions.

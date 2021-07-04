@@ -1,0 +1,19 @@
+
+service: azure-functions-test
+
+provider:
+  name: azure
+  region: West US 2
+  runtime: nodejs12
+
+plugins:
+  - serverless-azure-functions
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http: true
+        methods:
+          - GET
+        authLevel: anonymous
